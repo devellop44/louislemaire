@@ -50,7 +50,43 @@
 
 
     
-
+<script>
+  /* paste this line in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  /* customize formbutton below*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/myyvvweq",
+    title: "Comment pouvons-nous vous aider?",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "Quel est votre erreur",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "gray"
+      },
+      button: {
+        backgroundColor: "red"
+      }
+    }
+  });
+</script>
+<br />
+<h4>Cliquez sur le bouton en bas à droite
+    <br />
+    pour vous faire aider -></h4>
     <script src="script.js"></script>
     <br/><br/><br/><br><br/><br/><br/><br><br/><br/><br/><br><br/><br/><br/><br><br/><br/><br/><br>
     <h1>Cette page est en construction ! 🚧</h1>
